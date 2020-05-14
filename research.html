@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!-- Prevent Firefox from yelling at me -->
+<meta charset="utf-8"/>
+
+<html id="html">
+  <head>
+    <link href="./stylesheets/research-stylesheet.css" type=text/css rel='stylesheet'>
+    <!-- JQuery Content Delivery Network (CDN) hosted by Google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+    <!--<script src="https://d3js.org/d3.v3.min.js"></script> -->
+    <script src="https://d3js.org/topojson.v1.min.js"></script>    
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+  </head>
+  <body class="body theme2" id="body">
+    <script>
+      // Short hand for $(document).ready()
+      // Will run when Document Object Model (DOM) is safe to be modified
+      $(function(){
+          $('#navigation-panel').load('./library/collapse-reusable.html');
+      });    
+    </script>
+
+    <!-- Will automatically populate with reusable template -->
+    <div id="navigation-panel"></div>
+
+    <div id="research-div">
+      <div id="title" class="center mali">
+        <h1>Research</h1>
+      </div>
+
+    </div>
+
+    <script src="JavaScript/ChoroplethAndData.js"></script>
+    
+  </body>
+
+</html>

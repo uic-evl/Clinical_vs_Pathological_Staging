@@ -1,0 +1,25 @@
+html {
+  /* Hides the scrollbar so it doesnt take up width on screen */
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Setting the background theme color and removing any padding/margin */
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #4d77b3;
+}
+
+.parallax {
+  /* Full Height */
+  height: 100%;
+
+  /* Create Parallax Scrolling Effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

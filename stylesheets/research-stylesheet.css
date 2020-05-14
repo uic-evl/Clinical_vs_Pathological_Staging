@@ -1,0 +1,43 @@
+@import url("../library/library.css");
+
+.topo path {
+  stroke: #000;
+  stroke-width: 1.2px;
+  transition: fill 0.2s ease;
+}
+
+.tooltip {
+  position: absolute;
+}
+
+/* Setting the background theme color and removing any padding/margin */
+.topo{
+  padding: 0px;
+  margin: 0px 5%;
+}
+
+body {
+  min-width: 1680px; 
+  min-height: 900px;
+}
+
+.t_stage_clinicalxAxis path,
+.n_stage_clinicalxAxis path,
+.m_stage_clinicalxAxis path,
+.t_stage_pathxAxis path,
+.n_stage_pathxAxis path,
+.m_stage_pathxAxis path{
+  stroke: black;
+}
+
+/* Credits go to Blowsie at
+   https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting?page=1&tab=votes#tab-top */
+.backButtonText{
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */     
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

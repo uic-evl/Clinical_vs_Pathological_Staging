@@ -1,0 +1,89 @@
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align:right;
+}
+
+.opacity-90 {
+  opacity: .90;
+}
+
+.opacity-75 {
+  opacity: .75;
+}
+
+.line-break {
+  border: 0;
+  border-top: 5px solid #d78d33;
+}
+
+.width-60{
+  width: 60%;
+}
+
+.width-40{
+  width: 40%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+/* Help from W3Schools */
+.display-middle{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.margin-lr-10 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.margin-lr-5 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.margin-lr-2 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.size20{
+  font-size: 20px;
+}
+
+.size40{
+  font-size: 40px;
+}
+
+.size60{
+  font-size: 60px;
+}
+
+.size80{
+  font-size: 80px;
+}
+
+.size100{
+  font-size: 100px;
+}
+
+.no-outline-links {
+  text-decoration: none;
+  outline: none;
+}

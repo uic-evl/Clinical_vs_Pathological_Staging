@@ -1,0 +1,62 @@
+/* Theme colors */
+/* Current Theme: https://visme.co/blog/wp-content/uploads/2016/09/website12-1024x512.jpg */
+
+.theme1 {
+  color: #c46e6e;
+}
+
+.theme2 {
+  color: #1F2833;
+}
+
+.theme3 {
+  color: #d78d33;/*#f0f5f4;*/
+}
+
+.theme4 {
+  color: #7bcb62;
+}
+
+.theme5 {
+  color: #4d77b3;
+}
+
+.theme6 {
+  color: #fb900e;
+}
+
+.theme7 {
+  color: #f0f0f0;
+}
+
+.theme8 {
+  color: #a776bc;
+}
+
+.theme9 {
+  color: #d85a5a;
+}
+
+.theme1-back {
+  background-color: #c46e6e;
+}
+
+.theme2-back {
+  background-color: #4d77b3;
+}
+
+.theme3-back {
+  background-color: #d78d33;
+}
+
+.theme4-back {
+  background-color: #7bcb62;
+}
+
+.theme5-back {
+  background-color: #45A29E;
+}
+  
+.theme8-back {
+  background-color: #a776bc;
+}
